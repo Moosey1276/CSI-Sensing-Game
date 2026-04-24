@@ -8,7 +8,6 @@ import re
 from math import sqrt, atan2
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.layers import Dense, Dropout, Attention, Conv2D, MaxPooling2D, Flatten
 from tensorflow.keras.losses import SparseCategoricalCrossentropy

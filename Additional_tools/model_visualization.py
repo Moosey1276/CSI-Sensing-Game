@@ -2,7 +2,7 @@ import tensorflow as tf
 import visualkeras
 from PIL import ImageFont
 
-model_path = "model_3.keras"
+model_path = "../engine.keras"
 model = tf.keras.models.load_model(model_path)
 
 dummy_input = tf.zeros((1, 50, 52, 1))
